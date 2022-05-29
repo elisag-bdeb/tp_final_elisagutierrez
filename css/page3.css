@@ -1,0 +1,45 @@
+#section_1 {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+.event {
+    margin: 30px;
+    padding: 20px;
+}
+
+.logo_events {
+    width: 500px;
+}
+
+#section_2 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 450px;
+}
+
+.link_event {
+    font-size: 15px;
+    background: #FCA311;
+    padding: 12px;
+    color: white;
+}
+
+#section_3 {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+#video_yt {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#section_4 {
+    background-image: url(../images/background.jpg);
+}
