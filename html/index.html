@@ -1,13 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../javascript/script.js"></script>
     <title>Accueil
     </title>
 </head>
+
 <body>
-    
+
+    <!--HEADER / BARRE DE NAVIGATION-->
+
+    <header>
+        <div class="illustration">
+            <a href="./index.html">
+                <img src="../images/illustration.png" alt="Illustration d'appareil photo">
+            </a>
+        </div>
+        <nav>
+            <div class="nav_bar">
+                <a href="./index.html" class="nav_link">Accueil</a>
+                <a href="./page2.html" class="nav_link">Nouveautés</a>
+                <a href="./page3.html" class="nav_link">Évènements</a>
+                <a href="./page4.html" class="nav_link">À propos</a>
+                <a href="./page5.html" class="nav_link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--CONTENU PRINCIPAL DE LA PAGE D'ACCUEIL-->
+
+    <main>
+
+        <!--PRÉSENTATION PRINCIPALE DU SITE-->
+        <div class="contain_accueil">
+            <img class="picture_accueil" src="../images/picture2bis.jpg" alt="Photo accueil">
+            <div class="text_image">
+                <h1>BIENVENUE DANS UN MONDE DE PASSION</h1>
+                <span id="datetime"></span>
+                <p class="text_accueil">Venez découvrir toutes les dernières nouvelles en matière de photographie. Nous
+                    vous présentons les dernières nouveeautés en termes d'appareils photos et de technologies mises au
+                    point ou encore les derniers évènements qui ont lieu près de chez vous.
+                </p><br><br><br>
+                <a href="#section_1">
+                    <div class="arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div><br><br>
+                    <p class="view_more">Voir plus</p>
+                </a>
+
+            </div>
+        </div>
+
+        <!--SECTION 1 - Lien vers la page "Nouveautés"-->
+
+        <section id="section_1">
+            <div class="section_text">
+                <h2 style="color: #FCA311;">NOUVEAUTÉS</h2>
+                <p class="text_section">Découvrez les appareils photos les plus récents sur le marché ainsi que les
+                    dernières technologies
+                    afin
+                    de réaliser les plus belles photographies.</p><br>
+                <a class="link_section" href="../html/page2.html">EN SAVOIR PLUS</a>
+            </div>
+            <div id="new_products">
+                <div class="product_picture">
+                    <img class="picture_camera" src="../images/canon_1.jpeg" alt="Appareil photo Canon">
+                    <h3>CANON</h3>
+                    <h4>EOS Rebel T8I</h4>
+                    <a class="link_more_camera" href="./page2.html#camera1">Voir plus</a>
+                </div>
+                <div class="product_picture">
+                    <img class="picture_camera" src="../images/nikon_1.jpeg" alt="Appareil photo Nikon">
+                    <h3>NIKON</h3>
+                    <h4>D5600</h4>
+                    <a class="link_more_camera" href="./page2.html#camera2">Voir plus</a>
+                </div>
+                <div class="product_picture">
+                    <img class="picture_camera" src="../images/olympus_1.jpeg" alt="Appareil photo Olympus">
+                    <h3>OLYMPUS</h3>
+                    <h4>OM-D E-M5 Mark III</h4>
+                    <a class="link_more_camera" href="./page2.html#camera3">Voir plus</a>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION 2 - Lien vers la page "Évènements"-->
+
+        <section id="section_2">
+            <div class="section_text">
+                <h2 style="color: #FCA311;">ÉVÈNEMENTS</h2>
+                <p class="text_section">Découvrez tous les évènements près de chez vous. Salons, concours, worshops et
+                    plus encore...</p><br>
+                <a class="link_section" href="../html/page3.html"> EN SAVOIR PLUS</a>
+            </div>
+        </section>
+
+        <!--SECTION 3 - Lien vers la page "À propos"-->
+
+        <section id="section_3">
+            <div class="section_text">
+                <h2 style="color: #FCA311;">À PROPOS</h2>
+                <p class="text_section">Apprenez en plus à propos de nous et de nos inspirations. </p><br>
+                <a class="link_section" href="../html/page4.html">EN SAVOIR PLUS</a>
+            </div>
+            <div id="pictures_apropos">
+                <img class="picture_apropos" src="../images/picture8.jpg" alt="Photo à propos équipe">
+                <img class="picture_apropos" src="../images/picture9.jpg" alt="Photo à propos inspiration">
+            </div>
+        </section>
+
+        <!--SECTION 4 - Lien vers la page "Contact"-->
+
+        <section id="section_4">
+            <div class="section_text">
+                <h2 style="color: #FCA311;">CONTACT</h2>
+                <img src="../images/icone_form.png" alt="Icone formulaire" height="80px">
+                <p class="text_section">Pour toutes informations ou questions, n'hésitez pas à nous contacter via notre
+                    formulaire de contact ou sur nos réseaux sociaux.</p><br>
+                <a class="link_section" href="../html/page5.html">FORMULAIRE DE CONTACT</a>
+            </div>
+            <ul class="ul_social">
+                <li class="li_social"><a href="https://www.facebook.com" target="_blank" class="link_social"><img
+                            src="../images/facebook-f.svg" alt="Logo Facebook" class="logo_social">Facebook</a></li>
+                <li class="li_social"><a href="https://www.twitter.com" target="_blank" class="link_social"><img
+                            src="../images/twitter.svg" alt="Logo Twitter" class="logo_social">Twitter</a></li>
+                <li class="li_social"><a href="https://www.instagram.com" target="_blank" class="link_social"><img
+                            src="../images/instagram.svg" alt="Logo Instagram" class="logo_social">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer>
+        <ul class="ul_footer">
+            <li class="li_footer">Elisa GUTIERREZ</li>
+            <li class="li_footer">DA : 220-1871</li>
+            <li class="li_footer">Collège Bois-de-Boulogne</li>
+        </ul>
+    </footer>
+
 </body>
+
 </html>

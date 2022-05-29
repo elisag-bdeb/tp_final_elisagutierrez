@@ -1,0 +1,81 @@
+/* Page des nouveautés */
+
+.text_image_news {
+    position: absolute;
+    top: 36%;
+    left: 21%;
+    transform: translate(-40%, -20%);
+    width: 30%;
+}
+
+.picture_news {
+    width: 100%;
+}
+
+.arrow {
+    display: grid;
+    justify-content: center;
+}
+
+/* TOUTES LES SECTIONS */
+
+.link_section {
+    font-size: 15px;
+    background: #FCA311;
+    padding: 12px;
+    color: white;
+}
+
+/* SECTION 1*/
+
+.title_section {
+    text-align: center;
+    margin: 50px;
+}
+
+.camera {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.camera_pictures {
+    display: flex;
+    width: 30%;
+}
+
+.photo img {
+    width: 300px;
+}
+
+.photo_sec img {
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.camera_pres {
+    margin: 30px;
+    width: 30%;
+}
+
+.camera_fonctions {
+    margin: 30px;
+    width: 30%;
+}
+
+.link_store {
+    font-size: 15px;
+    background: #FCA311;
+    padding: 12px;
+    color: white;
+}
+
+#clip_video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
