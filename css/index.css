@@ -6,10 +6,6 @@
 
 /* TOUTES LES SECTIONS */
 
-section {
-    height: 650px;
-}
-
 .link_section {
     font-size: 15px;
     background: #FCA311;
@@ -28,12 +24,29 @@ section {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 680px;
+    height: 1350px;
 }
 
 .link_more_camera:hover {
     color: #FCA311;
 }
+
+/* Video */
+
+#section_video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#clip_accueil {
+    width: 1024px;
+}
+
+
+
 
 /* SECTION 2*/
 

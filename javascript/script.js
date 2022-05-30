@@ -1,3 +1,6 @@
+// Page Accueil
+
+// Affichage date et heure
 function pause(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -15,6 +18,33 @@ async function afficherDate() {
     }
 }
 afficherDate();
+
+// Boutons video
+
+function playPause() {
+    var video = document.getElementById('clip_accueil');
+    if (video.paused)
+        video.play();
+    else
+        video.pause();
+}
+
+function big() {
+    var video = document.getElementById('clip_accueil');
+    video.style.width = '1096px';
+}
+
+function small() {
+    var video = document.getElementById('clip_accueil');
+    video.style.width = '824px';
+}
+
+function normal() {
+    var video = document.getElementById('clip_accueil');
+    video.style.width = '1024px';
+}
+
+// Page Contact
 
 function envoi() {
 
