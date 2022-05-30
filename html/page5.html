@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/page2.css">
+    <link rel="stylesheet" href="../css/page5.css">
     <script src="../javascript/script.js"></script>
     <title>Contact</title>
 </head>
@@ -35,7 +35,39 @@
     <!--CONTENU PRINCIPAL DE LA PAGE CONTACT-->
 
     <main>
+        <div id="div_contact">
+            <img src="../images/picture3bis.jpg" alt="Photo Contact" class="img_contact" width="100%" height="auto">
+        </div>
 
+        <form>
+            <div id="form_div">
+                <h2>FORMULAIRE DE CONTACT</h2>
+                <div class="form">
+                    <label for="lastname">Nom :</label>
+                    <input type="text" id="lastname" name="user_lastname" placeholder="Veuillez entrer votre nom">
+                </div>
+                <div class="form">
+                    <label for="firstname">Prénom :</label>
+                    <input type="text" id="firstname" name="user_firstname" placeholder="Veuillez entrer votre prénom">
+                </div>
+                <div class="form">
+                    <label for="mail">Courriel :</label>
+                    <input type="email" id="mail" name="user_mail" placeholder="Veuillez entrer votre courriel">
+                </div>
+                <div class="form">
+                    <label for="question">Sujet de votre question :</label>
+                    <select id="question" name="user_question" form="question_form">
+                        <option value="camera">Appareils photos</option>
+                        <option value="partner">Partenariats</option>
+                        <option value="events">Évènements</option>
+                        <option value="career">Carrières</option>
+                    </select>
+                </div>
+                <div>
+                    <label for=""></label>
+                </div>
+            </div>
+        </form>
     </main>
 
     <!--FOOTER-->

@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form_div {
+    padding: 80px;
+    position: absolute;
+    background-color: #E5E5E5;
+    top: 30%;
+    left: 72%;
+    transform: translate(-40%, -20%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#div_contact {
+    display: flex;
+}
+
+.img_contact {
+    position: relative;
+}
