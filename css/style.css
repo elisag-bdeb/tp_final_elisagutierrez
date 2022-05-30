@@ -1,8 +1,14 @@
-/* Body (Commun à toutes les pages) */
+/* Commun à toutes les pages */
 
 body {
     margin: auto;
+    min-height: 100%;
+    position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    height: 100%;
 }
 
 .contain_accueil {
@@ -114,9 +120,12 @@ a {
 
 footer {
     background-color: grey;
-    padding: 30px;
+    padding: 30px 0px 30px 0px;
     color: white;
     font-weight: bold;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .ul_footer {

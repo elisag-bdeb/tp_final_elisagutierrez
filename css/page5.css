@@ -1,27 +1,58 @@
-form {
+#form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-image: url(../images/picture11bis.jpg);
+    height: 800px;
 }
 
-#form_div {
-    padding: 80px;
-    position: absolute;
+.part_img {
+    width: 50%;
+
+}
+
+.part_form {
+    width: 50%;
     background-color: #E5E5E5;
-    top: 30%;
-    left: 72%;
-    transform: translate(-40%, -20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    width: 350px;
 }
 
-#div_contact {
-    display: flex;
+label {
+    padding-bottom: 10px;
 }
 
-.img_contact {
-    position: relative;
+.title {
+    color: #FCA311;
+}
+
+textarea {
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+.input,
+select {
+    border: 1px solid;
+    height: 30px;
+    padding-left: 10px;
+}
+
+#button {
+    font-size: 15px;
+    background: #FCA311;
+    padding: 12px;
+    color: white;
+}
+
+#button:hover {
+    background-color: black;
 }

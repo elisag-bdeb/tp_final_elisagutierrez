@@ -35,39 +35,49 @@
     <!--CONTENU PRINCIPAL DE LA PAGE CONTACT-->
 
     <main>
-        <div id="div_contact">
-            <img src="../images/picture3bis.jpg" alt="Photo Contact" class="img_contact" width="100%" height="auto">
-        </div>
-
-        <form>
-            <div id="form_div">
-                <h2>FORMULAIRE DE CONTACT</h2>
-                <div class="form">
-                    <label for="lastname">Nom :</label>
-                    <input type="text" id="lastname" name="user_lastname" placeholder="Veuillez entrer votre nom">
+        <div id="form">
+            <div class="part_img">
+            </div>
+            <div class="part_form">
+                <div class="title">
+                    <h2>FORMULAIRE DE CONTACT</h2>
                 </div>
                 <div class="form">
-                    <label for="firstname">Prénom :</label>
-                    <input type="text" id="firstname" name="user_firstname" placeholder="Veuillez entrer votre prénom">
+                    <label for="lastname">* Nom :</label>
+                    <input type="text" id="lastname" class="input" name="user_lastname"
+                        placeholder="Veuillez entrer votre nom" required>
                 </div>
                 <div class="form">
-                    <label for="mail">Courriel :</label>
-                    <input type="email" id="mail" name="user_mail" placeholder="Veuillez entrer votre courriel">
+                    <label for="firstname">* Prénom :</label>
+                    <input type="text" id="firstname" class="input" name="user_firstname"
+                        placeholder="Veuillez entrer votre prénom" required>
                 </div>
                 <div class="form">
-                    <label for="question">Sujet de votre question :</label>
-                    <select id="question" name="user_question" form="question_form">
+                    <label for="email">* Courriel :</label>
+                    <input type="email" id="email" class="input" name="user_mail"
+                        placeholder="Veuillez entrer votre courriel" required>
+                </div>
+                <div class="form">
+                    <label for="question">* Sujet de votre question :</label>
+                    <select id="question" name="user_question" form="question_form" required>
+                        <option value="">-- SVP, choisir un sujet --</option>
                         <option value="camera">Appareils photos</option>
                         <option value="partner">Partenariats</option>
                         <option value="events">Évènements</option>
                         <option value="career">Carrières</option>
                     </select>
                 </div>
-                <div>
-                    <label for=""></label>
+                <div class="form">
+                    <label for="message">* Message : </label>
+                    <textarea type="text" id="message" name="user_message" rows="6" cols="50" maxlength="250"
+                        placeholder="Veuillez entrer votre message" required></textarea>
+                </div>
+                <div class="form">
+                    <input type="submit" class="button" id="button" value="Envoyer" onclick="envoi()">
                 </div>
             </div>
-        </form>
+        </div>
+        </div>
     </main>
 
     <!--FOOTER-->

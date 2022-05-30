@@ -15,3 +15,19 @@ async function afficherDate() {
     }
 }
 afficherDate();
+
+function envoi() {
+
+    var lastname = document.getElementById('lastname').value;
+    var firstname = document.getElementById('firstname').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+
+    if (lastname == '' || firstname == '' || email == '' || message == '') {
+        alert('Veuillez remplir tous les champs');
+    } else {
+        alert('Votre message a bien été envoyé !')
+        window.location.reload();
+    }
+}
+envoi();

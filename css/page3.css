@@ -21,12 +21,23 @@
     height: 450px;
 }
 
-.link_event {
+.link_event,
+.link_event_2 {
     font-size: 15px;
     background: #FCA311;
     padding: 12px;
     color: white;
 }
+
+.link_event:hover {
+    background-color: black;
+}
+
+.link_event_2:hover {
+    background-color: white;
+    color: black;
+}
+
 
 #section_3 {
     display: flex;
@@ -37,9 +48,10 @@
 #video_yt {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 30px 0px 100px 0px;
 }
 
 #section_4 {
     background-image: url(../images/background.jpg);
+    height: 800px;
 }
