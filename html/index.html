@@ -24,7 +24,7 @@
         </div>
         <nav>
             <div class="nav_bar">
-                <a href="./index.html" class="nav_link">Accueil</a>
+                <a href="./index.html" class="nav_link" style="color: black; font-size: 22px;">Accueil</a>
                 <a href="./page2.html" class="nav_link">Nouveautés</a>
                 <a href="./page3.html" class="nav_link">Évènements</a>
                 <a href="./page4.html" class="nav_link">À propos</a>
@@ -91,12 +91,12 @@
             <div id="section_video">
                 <video autoplay loop id="clip_accueil">
                     <source src="../videos/video1.mp4" type="video/mp4">
-                </video>
-                <div class="controls">
-                    <button onclick="playPause()">Play / Pause</button>
-                    <button onclick="big()">Agrandir</button>
-                    <button onclick="small()">Réduire</button>
-                    <button onclick="normal()">Normal</button>
+                </video><br>
+                <div id="controls">
+                    <button class="button_video" onclick="playPause()">Play / Pause</button>
+                    <button class="button_video" onclick="big()">Agrandir</button>
+                    <button class="button_video" onclick="normal()">Normal</button>
+                    <button class="button_video" onclick="small()">Réduire</button>
                 </div>
             </div>
         </section>

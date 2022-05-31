@@ -75,6 +75,7 @@
 
 .link_store:hover {
     background-color: black;
+    cursor: pointer;
 }
 
 /* SECTION 2*/

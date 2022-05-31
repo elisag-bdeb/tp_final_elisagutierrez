@@ -15,6 +15,7 @@
 
 .link_section:hover {
     background-color: black;
+    cursor: pointer;
 }
 
 /* SECTION 1*/
@@ -29,6 +30,7 @@
 
 .link_more_camera:hover {
     color: #FCA311;
+    cursor: pointer;
 }
 
 /* Video */
@@ -39,13 +41,36 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    position: relative;
 }
+
+#controls {
+    position: absolute;
+    background: black;
+    width: 1024px;
+    bottom: 20px;
+    opacity: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 #clip_accueil {
     width: 1024px;
 }
 
+.button_video {
+    background: black;
+    color: white;
+    border: solid;
+    width: 25%;
+    height: 40px;
+}
 
+.button_video:hover {
+    color: #FCA311;
+    cursor: pointer;
+}
 
 
 /* SECTION 2*/
@@ -136,4 +161,5 @@
 
 .link_social:hover {
     color: #FCA311;
+    cursor: pointer;
 }

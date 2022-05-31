@@ -31,17 +31,23 @@ function playPause() {
 
 function big() {
     var video = document.getElementById('clip_accueil');
+    var bar = document.getElementById('controls');
     video.style.width = '1096px';
+    bar.style.width = '1096px';
 }
 
 function small() {
     var video = document.getElementById('clip_accueil');
+    var bar = document.getElementById('controls');
     video.style.width = '824px';
+    bar.style.width = '824px';
 }
 
 function normal() {
     var video = document.getElementById('clip_accueil');
+    var bar = document.getElementById('controls');
     video.style.width = '1024px';
+    bar.style.width = '1024px';
 }
 
 // Page Contact

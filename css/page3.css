@@ -31,11 +31,13 @@
 
 .link_event:hover {
     background-color: black;
+    cursor: pointer;
 }
 
 .link_event_2:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 
