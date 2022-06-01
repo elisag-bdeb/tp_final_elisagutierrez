@@ -1,0 +1,29 @@
+.apropos {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 130px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.apropos_txt {
+    width: 50%;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.apropos_img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
