@@ -1,4 +1,4 @@
-// Page Accueil
+// PAGE ACCUEIL
 
 // Affichage date et heure
 function pause(ms) {
@@ -50,7 +50,9 @@ function normal() {
     bar.style.width = '1024px';
 }
 
-// Page Contact
+// PAGE CONTACT
+
+// Formulaire de contact
 
 function envoi() {
 
@@ -59,11 +61,15 @@ function envoi() {
     var email = document.getElementById('email').value;
     var message = document.getElementById('message').value;
 
+
     if (lastname == '' || firstname == '' || email == '' || message == '') {
         alert('Veuillez remplir tous les champs');
+    } else if (/^[\w\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email.value) != true) { //regex pour avoir un format d'email correct 
+        alert('Veuillez entrer un mail valide !')
     } else {
         alert('Votre message a bien été envoyé !')
         window.location.reload();
     }
 }
+
 envoi();

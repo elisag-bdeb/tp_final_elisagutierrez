@@ -1,4 +1,4 @@
-/* Commun à toutes les pages */
+/************ COMMUN À TOUTES LES PAGES ************/
 
 body {
     margin: auto;
@@ -84,7 +84,7 @@ html {
     color: white;
 }
 
-/* Header */
+/************ HEADER ************/
 
 header {
     background-color: #FCA311;
@@ -116,7 +116,7 @@ a {
     color: black;
 }
 
-/* Footer */
+/************ FOOTER ************/
 
 footer {
     background-color: grey;

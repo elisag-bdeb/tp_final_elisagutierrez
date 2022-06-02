@@ -1,7 +1,9 @@
+/************ PAGE CONTACT ************/
+
 #form {
     display: flex;
     flex-direction: row;
-    background-image: url(../images/picture11bis.jpg);
+    background-image: url(../images/picture_10.jpg);
     height: 800px;
 }
 
