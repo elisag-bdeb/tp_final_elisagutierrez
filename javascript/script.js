@@ -19,6 +19,18 @@ async function afficherDate() {
 }
 afficherDate();
 
+// Affichage nombre de visiteurs
+
+
+function incrementClick() {
+    var compteur = 0;
+    updateDisplay(++compteur);
+}
+
+function updateDisplay(visite) {
+    document.getElementById("nbVisit").innerHTML = visite;
+}
+
 // Boutons video
 
 function playPause() {

@@ -29,7 +29,8 @@
         </div>
         <nav>
             <div class="nav_bar">
-                <a href="./index.html" class="nav_link" style="color: black; font-size: 22px;">Accueil</a>
+                <a href="./index.html" class="nav_link" style="color: black; font-size: 22px;"
+                    onclick="incrementClick()">Accueil</a>
                 <a href="./page2.html" class="nav_link">Nouveautés</a>
                 <a href="./page3.html" class="nav_link">Évènements</a>
                 <a href="./page4.html" class="nav_link">À propos</a>
@@ -47,7 +48,8 @@
             <img class="picture_accueil" src="../images/picture_1.jpg" alt="Photo accueil">
             <div class="text_image">
                 <h1>BIENVENUE DANS UN MONDE DE PASSION</h1>
-                <span id="datetime"></span>
+                <span id="datetime"></span><br>
+                <p style="font-size: 12px;">Nombre de visiteurs : <span id="nbVisit">0</span></p>
                 <p class="text_accueil">Venez découvrir toutes les dernières nouvelles en matière de photographie. Nous
                     vous présentons les dernières nouveeautés en termes d'appareils photos et de technologies mises au
                     point ou encore les derniers évènements qui ont lieu près de chez vous.
@@ -95,6 +97,8 @@
                     <a class="link_more_camera" href="./page2.html#camera3">Voir plus</a>
                 </div>
             </div>
+
+            <!--Video locale (Autoplay ne marche pas sur Chrome)-->
             <div id="section_video">
                 <video autoplay loop id="clip_accueil">
                     <source src="../videos/video_1.mp4" type="video/mp4">
