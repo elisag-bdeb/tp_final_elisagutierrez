@@ -77,7 +77,7 @@ function envoi() {
     if (lastname == '' || firstname == '' || email == '' || message == '') {
         alert('Veuillez remplir tous les champs');
     } else if (/^[\w\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email.value) != true) { //regex pour avoir un format d'email correct 
-        alert('Veuillez entrer un mail valide !')
+        alert('Veuillez entrer un courriel valide !')
     } else {
         alert('Votre message a bien été envoyé !')
         window.location.reload();
